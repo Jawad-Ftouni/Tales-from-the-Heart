@@ -1,0 +1,70 @@
+.container {
+
+    padding: 0px 15px;
+    max-width: 0;
+    height: 80px;
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+
+}
+
+.container .row>* {
+    max-width: 100%;
+    width: 25%;
+}
+
+
+
+.top-image {
+    width: 130px;
+    height: 39px;
+    padding: 0px 15px;
+    max-width: 25%;
+}
+
+.col2 {
+    display: flex;
+    justify-content: end;
+    flex-basis: 75%;
+    align-items: center;
+    gap: 10px;
+}
+
+.flag {
+    width: 20px;
+    height: 15px;
+    margin-right: 8px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+
+.vl {
+    border-left: 1px solid gray;
+    height: 20px;
+    width: 4px;
+    margin-right: 4px
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.search-btn {
+    padding: 5px;
+    border: 0px;
+    background-color: white;
+}
+
+.buy-btn {
+    background-color: white;
+}
+
+.buy-btn:hover {
+    background-color: green;
+}
