@@ -1,0 +1,20 @@
+.name {
+    color: firebrick;
+}
+
+.section {
+    background-color: darkgray;
+}
+
+.container {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.main-search-form {
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: space-around;
+
+}

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from '../components/navbar/navbar.component';
 import { HeaderComponent } from 'src/components/header/header.component';
 import { HeaderTopComponent } from '../components/header-top/header-top.component';
+import { MainSearchFormComponent } from '../components/main-search-form/main-search-form.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { HeaderTopComponent } from '../components/header-top/header-top.componen
     NavbarComponent,
     HeaderComponent,
     HeaderTopComponent,
+    MainSearchFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
