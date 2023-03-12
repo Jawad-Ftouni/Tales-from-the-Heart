@@ -1,14 +1,17 @@
 .name {
-    color: firebrick;
+    color: #5869da;
+    font-family: sans-serif;
+    font-weight: 900;
 }
 
 .section {
-    background-color: darkgray;
+    background-color: rgba(238, 238, 238, 0.897);
 }
 
 .container {
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 33px;
+    margin-right: 0px;
 }
 
 .main-search-form {
@@ -17,4 +20,76 @@
     align-items: center;
     justify-content: space-around;
 
+}
+
+/* .btn-submit {
+    background-color: blue;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+} */
+
+.btn {
+    position: relative;
+    background-color: #5869da !important;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #FFFFFF !important;
+    padding: 6px 12px;
+    width: 115px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-left: 0px;
+}
+
+.color-input {
+    background-color: white;
+}
+
+.btn:after {
+    content: "";
+    background: rgb(193, 193, 238);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    border-left: 0px;
+    transition: all 0.8s
+}
+
+.btn:active:after {
+    padding: 4px 8px;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+input[type=text] {
+    background-color: white !important;
+    border-radius: 0px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.description {
+    font-family: sans-serif;
+    font-weight: 900;
+    color: darkgray
+}
+
+.input-btn-container {
+    display: flex;
+    width: 400px;
+    justify-content: flex-end;
 }
